@@ -1,0 +1,16 @@
+.head{
+    position: relative;
+}
+
+.head div{
+    position: absolute;
+    width: 800px;
+    text-align: center;
+    color: map-get($colors , f-white );
+    top: 20%;
+    margin-left: 20%;
+}
+
+.head h1{
+    padding-bottom: 20px;
+}

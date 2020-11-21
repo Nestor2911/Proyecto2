@@ -1,0 +1,22 @@
+.data-public{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firma h4{
+    @include font-h3(1.4rem,1.4rem,bold);
+    color: map-get($colors , a-hover );
+    margin-top: 10px;
+}
+
+.firma p{
+    font-size: 1.4rem;
+    color: map-get($colors , a-hover );
+}
+
+.comparte{
+    color: map-get($colors , f-blue2 );
+    font-size: 1.8rem;
+}

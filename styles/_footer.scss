@@ -1,0 +1,94 @@
+/*Footer*/
+
+footer{
+    margin-top: 50px;
+    background-color: map-get($colors , f-blue );
+    border-radius: 0px 200px 0px 0px;
+}
+
+.interested{
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.interested > div{
+    width: 50%;
+}
+
+.interested h2{
+    color: map-get($colors , f-white );
+    @include font-h3(3.6rem,4.6rem,normal);
+}
+
+.interested p{
+    color: map-get($colors , f-white );
+    opacity: 0.6;
+    @include font-h3(1.6rem,2.6rem,normal);
+    margin-top: 35px;
+}
+
+.talk{
+    margin: auto;
+    text-align: center;
+}
+
+.talk button{
+    background-color: #5A98D0;
+    border-radius: 10px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 1.6rem;
+    color: map-get($colors , f-white );
+}
+
+.line-footer{
+    width: 100%;
+    border-bottom: 1px solid map-get($colors , f-white );
+    opacity: 0.4;
+}
+
+/* Listas del Footer */
+
+.list-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    color: map-get($colors , f-white );
+}
+
+.list-footer > div{
+    width: 25%;
+}
+
+.list-footer h3{
+    @include font-h3(2rem,2rem,normal);
+    margin: 5px 0;
+}
+
+.list-footer a{
+    color: map-get($colors , f-white );
+}
+
+.list-footer ul{
+    margin-top: 20px;
+}
+
+.list-footer li{
+    @include font-h3(1.6rem,2.6rem,normal);
+    padding-top: 10px;
+    letter-spacing: 0.05rem;
+}
+
+.list-footer span{
+    @include font-h3(1.6rem,2.6rem,bold);
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.derechos{
+    @include font-h3(1.6rem,2.6rem,normal);
+    padding: 2% 15%;
+    opacity: 0.4;
+}

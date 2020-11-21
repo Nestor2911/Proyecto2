@@ -1,0 +1,16 @@
+.search{
+    width: 100%;
+    border-radius: 5px;
+    background-color: map-get($colors , f-search );
+    color: map-get($colors , a-hover );
+    font-size: 1.6rem;
+    padding: 17px;
+    margin: 40px 0;
+}
+
+.search input{
+    background-color: transparent;
+    width: 80%;
+    border: 1px solid map-get($colors , f-search );
+    padding-left: 20px;
+}

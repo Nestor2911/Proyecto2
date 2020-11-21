@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 1366px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+/*Secciones*/
+
+.body-main{
+    width: 100%;
+    padding: 0 15.6%;
+}

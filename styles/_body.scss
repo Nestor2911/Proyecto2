@@ -1,0 +1,105 @@
+
+/*Article Populars */
+
+.body-main h2{
+    color: map-get($colors , f-blue2 );
+    margin: 20px 0;
+}
+
+.popular1{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-popular{
+    width: 40%;
+}
+
+.article-popular h3{
+    color: map-get($colors , a-hover );
+}
+
+.article-popular p{
+    color: map-get($colors , f-black );
+    padding: 10px 0;
+}
+
+
+/*Article popular2*/
+
+.popular2{
+    width: 300px;
+    display: flex;
+}
+
+.article-popular2{
+    margin-right: 18px;
+}
+
+.article-popular2 img{
+    padding-bottom: 10px;
+}
+
+.article-popular2 h3{
+    @include font-h3(2.2rem,3.2rem,bold);
+    color: map-get($colors , a-hover );
+}
+
+.article-popular2 p{
+    color: rgba(0, 0, 0, 0.6);
+    @include font-h3(1.6rem,2.6rem,normal);
+    margin-bottom: 20px;
+}
+
+.see-all{
+    color: map-get($colors , f-blue2 );
+    @include font-h3(1.6rem,1.6rem,bold);
+    margin: 10px 0;
+    display: block;
+    padding: 20px 0;
+    text-align: right;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/*All Articles*/
+
+.all-article2{
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+
+.all-article2 > div{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-article2 h3{
+    color: map-get($colors , a-hover );
+    @include font-h3(1.8rem,3rem,bold);
+}
+
+.all-article2 p{
+    color: rgba(0, 0, 0, 0.6);
+    @include font-h3(1.4rem,2.4rem,normal);
+    padding-right: 20px;
+}
+.navegator{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.navegator a{
+    color: map-get($colors , f-blue2 );
+}
+
+.navegator span{
+    margin: 0 10px;
+}

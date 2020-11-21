@@ -1,0 +1,42 @@
+/*Logo*/
+
+.logoA{
+    position: relative;
+    font-family: 'helvetica';
+    height: 32px;
+    
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.logo1{
+    background-color: map-get($colors , f-blue );
+}
+
+.logo2{
+    border: 1px solid map-get($colors , f-blue );
+    background-color: map-get($colors , f-white );
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.logo3{
+    background-color: map-get($colors , f-light-blue );
+}
+
+.logo4 p{
+    position: absolute;
+    left: 7px;
+    top: 4px;
+}
+
+.logoA h2{    
+    position: absolute;
+    top: 2px;
+    left: 55px;
+}
