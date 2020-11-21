@@ -4,6 +4,7 @@
     position: relative;
     font-family: 'helvetica';
     height: 32px;
+    text-align: center;
     
 }
 
@@ -29,11 +30,12 @@
     background-color: map-get($colors , f-light-blue );
 }
 
+
 .logo4 p{
     position: absolute;
     left: 7px;
     top: 4px;
-}
+    }
 
 .logoA h2{    
     position: absolute;
