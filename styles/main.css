@@ -254,6 +254,7 @@ a {
   position: relative;
   font-family: 'helvetica';
   height: 32px;
+  text-align: center;
 }
 
 .logo {
