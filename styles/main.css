@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  width: 1366px;
+  width: 1024px;
   margin: auto;
 }
 
@@ -254,6 +254,7 @@ a {
   position: relative;
   font-family: 'helvetica';
   height: 32px;
+  text-align: center;
 }
 
 .logo {
@@ -477,4 +478,24 @@ footer {
   padding: 2% 15%;
   opacity: 0.4;
 }
+
+/*Small Mobile
+@media (min-width: 0px) and (max-width: 500px){
+    header{
+    width: 70%;
+    }
+    .banner{
+        width: 70%;
+    }
+
+    .navegator{
+        width: 70%;
+    }
+
+    footer{
+        width: 70%;
+
+    }
+}
+*/
 /*# sourceMappingURL=main.css.map */
