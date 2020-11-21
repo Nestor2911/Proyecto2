@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .firma h4{
@@ -16,7 +16,6 @@
     color: map-get($colors , a-hover );
 }
 
-.comparte{
-    color: map-get($colors , f-blue2 );
-    font-size: 1.8rem;
+a{
+    margin-left: 38px;
 }

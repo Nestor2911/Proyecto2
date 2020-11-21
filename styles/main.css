@@ -302,6 +302,7 @@ header {
           justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
+  position: relative;
 }
 
 nav ul {
@@ -327,9 +328,6 @@ nav-a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .firma h4 {
@@ -345,9 +343,8 @@ nav-a:hover {
   color: #1F3F68;
 }
 
-.comparte {
-  color: #356EAD;
-  font-size: 1.8rem;
+a {
+  margin-left: 38px;
 }
 
 .search {
