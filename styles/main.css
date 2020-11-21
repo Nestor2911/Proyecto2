@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  width: 1366px;
+  width: 1024px;
   margin: auto;
 }
 
@@ -479,17 +479,19 @@ footer {
   opacity: 0.4;
 }
 
-/*Small Mobile
-@media (min-width: 0px) and (max-width: 480px){
-    header{
-
-    }
-    main{
-
-    }
-    footer{
-
-    }
+/*Small Mobile*/
+@media (min-width: 0px) and (max-width: 500px) {
+  header {
+    width: 70%;
+  }
+  .banner {
+    width: 70%;
+  }
+  .navegator {
+    width: 70%;
+  }
+  footer {
+    width: 70%;
+  }
 }
-*/
 /*# sourceMappingURL=main.css.map */
